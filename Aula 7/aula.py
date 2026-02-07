@@ -15,7 +15,10 @@
 
 ecommerce = {
 'livros':{
-    'a':50.0,
+    'a':{
+        'cartao': 50.0,
+        'dinheiro' :45.0
+    },
     'b':150
 },
 'tablets':{
@@ -27,9 +30,9 @@ ecommerce = {
     'ty':155.00
 }
 }
+print(ecommerce)
 
-
-meus_produtos ={
+'''meus_produtos ={
 'carrinho':[],
 'valores':[]
 }
@@ -61,4 +64,4 @@ print('Total R$ - ', total)
 lista_pag =  ['pix', 'cc', 'cd']
 forma = input('digite a forma de pagamento: ')
 print('forma de pagamento> ', forma)
-print('Obrigada volte sempre! ')
+print('Obrigada volte sempre! ')'''
