@@ -5,10 +5,10 @@ dados = {
     'login':[],
     'senha':[],
         'produtos':{
-                    1: ['Computador Del',5000.0],
-                    2: ['Fone Apple',2000.0],
-                    3: ['Mouse lenovo',250.0],
-                    4: ['Monitor Lenovo', 3000.0]
+                    '1': ['Computador Del',5000.0],
+                    '2': ['Fone Apple',2000.0],
+                    '3': ['Mouse lenovo',250.0],
+                    '4': ['Monitor Lenovo', 3000.0]
                     }
 }
 
@@ -29,7 +29,7 @@ if acesso_login == dados['login'][0] and acesso_senha == dados['senha'][0]:
     print(''' Produtos''')
     produto = input(f'''
         
-            {dados['produtos']} - escolha 1 - 2 - 3 - 4 ->>>
+        {dados['produtos']} - escolha 1 - 2 - 3 - 4 ->>>
     
                     ''')
 
@@ -39,7 +39,7 @@ if acesso_login == dados['login'][0] and acesso_senha == dados['senha'][0]:
     valores = []
 
     carrinho.append(dados['produtos'][produto][0])
-    valores.append(dados['produtos'][valores][1])
+    valores.append(dados['produtos'][produto][1])
     print(carrinho[0],valores[0])
 
 # pagamento do produto
