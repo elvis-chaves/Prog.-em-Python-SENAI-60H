@@ -30,7 +30,7 @@ teste_2()
 
 # Crie uma lista e um índice como entrada e retorne o índice. Manipule a exceção caso o índice seja inválido(caso imprima um indice que não exista na lista).
 
-def teste_2 ():
+def teste_3 ():
 
     try:
         lista = [0,1,2]
@@ -40,4 +40,4 @@ def teste_2 ():
     finally:
         print('Carregamento concluido')
 
-teste_2()       
+teste_3()       
